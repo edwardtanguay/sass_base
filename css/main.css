@@ -1,0 +1,4 @@
+@use 'variables';
+@use 'layout';
+body {
+  color: #001aff; }
