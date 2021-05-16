@@ -1,12 +1,14 @@
-# sass_base
+# with_create_react_app
 
-This repository has multiple branches which each show a different way to set up SASS in a website in order to automatically convert it to CSS.
+Using create-react-app and then making a few changes to enable SASS is probably the easiest way to use the full functionality of SASS with modules, plus you are in the rich environment of React which is definitely an advantage.
 
-This repository is mainly intended to be used as a learning tool to understand how SASS is dependent on the environment in which it is used, i.e. there are very many ways to process it into CSS and in general, the processing is just one element in a larger process of web-bundling and task-running in order to simplify development and optimize websites.
+This solution uses the `sass` library instead of `node-sass` and so can use the `@use` commands which are recommended over the deprecated `@import` command. This solution uses two modules as an example of loading modules.
 
 ## How to use
 
-Switch to the appropriate branch to see that solution to process SASS into CSS.
+See this howto on how to set this up manually: https://onespace.netlify.app/howtos?id=171
+
+Or clone the repository that contains the finished solution here: 
 
 As a learning guide, study the following branches in this order:
 
