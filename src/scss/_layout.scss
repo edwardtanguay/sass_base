@@ -1,3 +1,4 @@
+@use 'variables' as v;
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	main {
@@ -5,7 +6,7 @@ body {
 		padding: 0.8rem;
 		background-color: lightgray;
 		h1 {
-			color: variables.$mainHeaderColor;
+			color: v.$mainHeaderColor;
 		}
 		h1,
 		article.browser {
@@ -15,7 +16,7 @@ body {
 		article.browser {
 			background: white;
 			h2 {
-				color: variables.$mainHeaderColor;
+				color: v.$mainHeaderColor;
 			}
 			h2,
 			p {
