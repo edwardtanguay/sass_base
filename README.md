@@ -2,6 +2,8 @@
 
 This repository has multiple branches which each show a different way to set up SASS in a website in order to automatically convert it to CSS.
 
+This repository is mainly intended to be used as a learning tool to understand how SASS is dependent on the environment in which it is used, i.e. there are very many ways to process it into CSS and in general, the processing is just one element in a larger process of web-bundling and task-running in order to simplify development and optimize websites.
+
 ## How to use
 
 Switch to the appropriate branch to see the solution to process SASS into CSS.
