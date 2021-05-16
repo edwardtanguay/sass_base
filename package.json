@@ -9,9 +9,5 @@
 		"build": "parcel build src/index.html"
 	},
 	"keywords": [],
-	"author": "",
-	"devDependencies": {
-		"parcel-bundler": "^1.12.5",
-		"sass": "^1.32.13"
-	}
+	"author": ""
 }
