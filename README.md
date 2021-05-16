@@ -6,7 +6,7 @@ This repository is mainly intended to be used as a learning tool to understand h
 
 ## How to use
 
-Switch to the appropriate branch to see the solution to process SASS into CSS.
+Switch to the appropriate branch to see that solution to process SASS into CSS.
 
 As a learning guide, the following order is recommended:
 
