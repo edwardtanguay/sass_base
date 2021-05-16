@@ -10,7 +10,7 @@ Switch to the appropriate branch to see that solution to process SASS into CSS.
 
 As a learning guide, the following order is recommended:
 
-- :thumbsup: [**with_node_sass**](https://github.com/edwardtanguay/sass_base/tree/with_node_sass) - The simplest solution when you just need to convert numerous `.scss` files into one `.css` file. It uses deprecated `@import` but has modules and so is quite extensive, straight-forward and pragmatic.
+- :thumbsup: **with_node_sass** - The simplest solution when you just need to convert numerous `.scss` files into one `.css` file. It uses deprecated `@import` but has modules and so is quite extensive, straight-forward and pragmatic.
 
 - **with_gulp** - This solution is very simple Gulp solution (although Gulp itself is not simple) and should be used mostly as a way to get you up-and-running with a working version of Gulp, and see how Gulp converts SCSS to CSS, or if you merely need to convert one `.scss` file for a small website.
 
