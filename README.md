@@ -2,7 +2,7 @@
 
 Gulp is a task runner created in 2017 to replace Grunt created in 2012. As a task runner it does much more than convert SCSS to CSS, but in this example all it does is watch one `.scss` file and convert it to a `.css`.
 
-This solution is very simple and should be used mostly as a way to get you up-and-running with a working version of Gulp, and see how Gulp converts SCSS to CSS, or if you merely need to convert one `.scss` file for a smalle website.
+This solution is very simple and should be used mostly as a way to get you up-and-running with a working version of Gulp, and see how Gulp converts SCSS to CSS, or if you merely need to convert one `.scss` file for a small website.
 
 ## How to use
 
