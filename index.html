@@ -10,23 +10,17 @@
 	<title>SASS Base</title>
 </head>
 <style>
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-
 	body {
 		font-family: Arial, Helvetica, sans-serif;
 	}
 
-	.all-browsers {
+	main {
 		margin: 0;
 		padding: .8rem;
 		background-color: lightgray;
 	}
 
-	.all-browsers>h1,
+	main>h1,
 	.browser {
 		margin: 10px;
 		padding: .8rem;
@@ -38,32 +32,39 @@
 
 	.browser>h2,
 	p {
-		margin: 4px;
+		margin: .5rem;
+	}
+
+	.browser>p {
+		color: brown;
+	}
+
+	.browser>p>.year {
+		font-size: 1.3rem;
+		background-color: #eee;
+		color: black;
 	}
 </style>
 </head>
 
 <body>
-
-	<article class="all-browsers">
-		<h1>Most Popular Browsers</h1>
+	<main>
+		<h1>Web Browsers</h1>
 		<article class="browser">
-			<h2>Google Chrome</h2>
-			<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular
-				web browser today!</p>
+			<h2>Firefox</h2>
+			<p>Firefox is an open-source web browser developed by Mozilla, released in <span class="year">2002</span>. It uses the Gecko browser
+				rendering engine and the SpiderMonkey JavaScript rendering engine.</p>
 		</article>
 		<article class="browser">
-			<h2>Mozilla Firefox</h2>
-			<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most
-				popular web browser since January, 2018.</p>
+			<h2>Safari</h2>
+			<p>Safari is a web browser developed by Apple, released in <span class="year">2003</span>. It uses the WebKit browser
+				rendering engine and the SpiderMonkey JavaScriptCore rendering engine.</p>
 		</article>
 		<article class="browser">
-			<h2>Microsoft Edge</h2>
-			<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced
-				Internet Explorer.</p>
+			<h2>Chrome</h2>
+			<p>Chrome is a web browser developed by Google, released in <span class="year">2008</span>. It uses the Blink rendering
+				engine and the V8 JavaScript rendering engine.</p>
 		</article>
-	</article>
-
 </body>
 
 </html>
