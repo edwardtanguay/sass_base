@@ -1,0 +1,23 @@
+{
+  "name": "sass_base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "./node_modules/.bin/sass --watch src/scss:public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardtanguay/sass_base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardtanguay/sass_base/issues"
+  },
+  "homepage": "https://github.com/edwardtanguay/sass_base#readme",
+  "devDependencies": {
+    "sass": "^1.32.13"
+  }
+}

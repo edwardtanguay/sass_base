@@ -5,7 +5,7 @@ body {
 		padding: 0.8rem;
 		background-color: lightgray;
 		h1 {
-			color: $mainHeaderColor;
+			color: variables.$mainHeaderColor;
 		}
 		h1,
 		article.browser {
@@ -15,7 +15,7 @@ body {
 		article.browser {
 			background: white;
 			h2 {
-				color: $mainHeaderColor;
+				color: variables.$mainHeaderColor;
 			}
 			h2,
 			p {
