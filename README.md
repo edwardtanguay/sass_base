@@ -4,15 +4,19 @@ Parcel is the up-and-coming module bundler which challenges WebPack. Where Webpa
 
 > "The cool thing with Parcel is it just figures things out."
 
-This solution is up-to-date and useful in that it uses the new `@use` command to include modules which replaces the `@import` command which is now deprecated. Among other features, the `@use` command enables modules to have namespaces and aliases for these namespaces which is demonstrated in this solution.  
+This solution is up-to-date and useful in that it uses the new `@use` command to include modules which replaces the `@import` command which is now deprecated. Among other features, the `@use` command enables modules to have namespaces and aliases for these namespaces which is demonstrated in this solution. 
+
 
 ## How to use
 
 - `npm i`
-- run Live Server on `index.html`
-- `npm run watch` to begin watching and converting scss to css
-- make changes to `scss/main.scss` to see them immediately reflected in the browser
+- `npm run dev` to begin watching and converting scss to css
+- Important: click on the link shown by `npm run dev` in the terminal window which is a kind of Live Server
+	- Live Server won't work because of a small discreption in how Parcel maps the path to the .css file
+- make changes to any of the `.scss` files to see them immediately reflected in the browser
 
 ## Note
 
-- Webpack is quite powerful and so feel free to use this solution as the base for making a much more sophisticated solution for converting SCSS to CSS, packaging JavaScript files, resizing photos, and packaging and optimizing your website for publishing.
+- This solution has the common modern structure where all source files are in the `src` directory and are then built to the `dist` directory with the `npm run build` command. See [this howto](https://onespace.netlify.app/howtos?id=383) that I made which shows how to easily publish this solution at Netlify (which executes the `npm run build` commands itself).
+
+- Note that in this Parcel solution, the `index.html` file links to the `scss/main.scss` and not to `css/main.css` as the other solutions do. Parcel smartly follows this link to find out where all the .scss files it needs to watch so we don't need to tell it this.
