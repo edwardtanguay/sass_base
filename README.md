@@ -8,7 +8,7 @@ This repository is mainly intended to be used as a learning tool to understand h
 
 Switch to the appropriate branch to see that solution to process SASS into CSS.
 
-As a learning guide, the following order is recommended:
+As a learning guide, study the following branches in this order:
 
 - :thumbsup: **with_node_sass** - The simplest solution when you just need to convert numerous `.scss` files into one `.css` file. It uses deprecated `@import` but has modules and so is quite extensive, straight-forward and pragmatic.
 
