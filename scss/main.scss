@@ -1,0 +1,37 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+	margin: 0;
+	padding: .8rem;
+	background-color: lightgray;
+}
+
+main>h1, .browser {
+	margin: 10px;
+	padding: .8rem;
+}
+
+.browser {
+	background: white;
+}
+
+.browser>h2, p {
+	margin: .5rem;
+}
+
+.browser>p {
+	color: brown;
+}
+
+.browser>p>.year {
+	font-size: 1.3rem;
+	background-color: #eee;
+	color: navy;
+}
+
+.browser>p>strong {
+	background-color: lightyellow;
+	color: black;
+}
