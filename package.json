@@ -8,8 +8,7 @@
     "node-sass": "^6.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch scss -o css"
+    "start": "node-sass -r scss/main.scss -o css && node-sass -r --watch scss -o css"
   },
   "repository": {
     "type": "git",

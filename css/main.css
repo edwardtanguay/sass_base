@@ -4,12 +4,16 @@ body {
     margin: 0;
     padding: 0.8rem;
     background-color: lightgray; }
+    body main h1 {
+      color: #d42121; }
     body main h1,
     body main article.browser {
       margin: 10px;
       padding: 0.8rem; }
     body main article.browser {
       background: white; }
+      body main article.browser h2 {
+        color: #d42121; }
       body main article.browser h2,
       body main article.browser p {
         margin: 0.5rem; }
