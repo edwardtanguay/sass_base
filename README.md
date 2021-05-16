@@ -12,7 +12,7 @@ As a learning guide, the following order is recommended:
 
 - **with_node_sass** - The simplest solution when you only have one `main.scss` file that has to be converted to `main.css`. Uses deprecated `@import` but uses modules and is very straight-forward and pragmatic.
 
-- **with_gulp** - This solution is very simple and should be used mostly as a way to get you up-and-running with a working version of Gulp, and see how Gulp converts SCSS to CSS, or if you merely need to convert one `.scss` file for a small website.
+- **with_gulp** - This solution is very simple Gulp solution (although Gulp itself is not simple) and should be used mostly as a way to get you up-and-running with a working version of Gulp, and see how Gulp converts SCSS to CSS, or if you merely need to convert one `.scss` file for a small website.
 
 - **with_webpack** - 
 
