@@ -1,0 +1,32 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	main {
+		margin: 0;
+		padding: 0.8rem;
+		background-color: lightgray;
+		h1,
+		article.browser {
+			margin: 10px;
+			padding: 0.8rem;
+		}
+		article.browser {
+			background: white;
+			h2,
+			p {
+				margin: 0.5rem;
+			}
+			p {
+				color: rgb(141, 25, 25);
+				.year {
+					font-size: 1.3rem;
+					background-color: #eee;
+					color: navy;
+				}
+				strong {
+					background-color: lightyellow;
+					color: black;
+				}
+			}
+		}
+	}
+}

@@ -2,36 +2,36 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-main {
+body main {
 	margin: 0;
-	padding: .8rem;
+	padding: 0.8rem;
 	background-color: lightgray;
 }
 
-main>h1, .browser {
+body main h1, body main article.browser {
 	margin: 10px;
-	padding: .8rem;
+	padding: 0.8rem;
 }
 
-.browser {
+body main article.browser {
 	background: white;
 }
 
-.browser>h2, p {
-	margin: .5rem;
+body main article.browser h2, body main article.browser p {
+	margin: 0.5rem;
 }
 
-.browser>p {
-	color: brown;
+body main article.browser p {
+	color: #8d1919;
 }
 
-.browser>p>.year {
+body main article.browser p .year {
 	font-size: 1.3rem;
 	background-color: #eee;
 	color: navy;
 }
 
-.browser>p>strong {
+body main article.browser p strong {
 	background-color: lightyellow;
 	color: black;
 }
