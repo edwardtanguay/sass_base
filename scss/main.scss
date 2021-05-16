@@ -1,6 +1,40 @@
-@use 'variables';
-@use 'layout'; 
+$mainHeaderColor: rgb(158, 77, 77); 
 
 body {
-	color: rgb(0, 26, 255);
+	font-family: Arial, Helvetica, sans-serif;
+	main {
+		margin: 0;
+		padding: 0.8rem;
+		background-color: lightgray;
+		h1 {
+			color: $mainHeaderColor;
+		}
+		h1,
+		article.browser {
+			margin: 10px; 
+			padding: 0.8rem;
+		}
+		article.browser {
+			background: white;
+			h2 {
+				color: $mainHeaderColor;
+			}
+			h2,
+			p {
+				margin: 0.5rem;
+			}
+			p {
+				color: rgb(141, 25, 25);
+				.year {
+					font-size: 1.3rem;
+					background-color: #eee;
+					color: navy;
+				}
+				strong {
+					background-color: lightyellow;
+					color: black;
+				}
+			}
+		}
+	}
 }
