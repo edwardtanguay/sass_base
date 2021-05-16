@@ -18,4 +18,4 @@ As a learning guide, study the following branches in this order:
 
 - :heart: **with_parcel** - Parcel is the up-and-coming module bundler which challenges WebPack. Where Webpack is notoriously difficult to set up and configure, Parcel for the most part simply works.  This solution is up-to-date and useful in that it uses the new `@use` command to include modules which replaces the `@import` command which is now deprecated. 
 
-- :heart: **with_create_react_app** - 
+- :heart: **with_create_react_app** - Using create-react-app and then making a few changes to enable SASS is probably the easiest way to use the full functionality of SASS with modules, plus you are in the rich environment of React which is definitely an advantage. 
