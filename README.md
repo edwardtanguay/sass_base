@@ -1,6 +1,6 @@
 # sass_base
 
-This repository shows multiple way to set up SASS in a website in order to automatically convert it to CSS.
+This repository has multiple branches which each show a different way to set up SASS in a website in order to automatically convert it to CSS.
 
 ## How to use
 
