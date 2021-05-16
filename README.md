@@ -1,8 +1,10 @@
 # with_parcel
 
-Webpack is a JavaScript module bundler created in 2012. It is still the default website bundler although it notoriously difficult to set up and is therefore being replaced for simpler projects by Parcel.
+Parcel is the up-and-coming module bundler which challenges WebPack. Where Webpack is notoriously difficult to set up and configure, Parcel for the most part simply works. 
 
-This solution is very simple and should be used mostly as a way to get you up-and-running with a working version of Website, which itself can be a challenge. Use this solution to see how Webpack converts SCSS to CSS, or if you merely need to convert one `.scss` file for a small website.
+> "The cool thing with Parcel is it just figures things out."
+
+This solution is up-to-date and useful in that it uses the new `@use` command to include modules which replaces the `@import` command which is now deprecated. Among other features, the `@use` command enables modules to have namespaces and aliases for these namespaces which is demonstrated in this solution.  
 
 ## How to use
 
