@@ -8,5 +8,5 @@ Switch to the appropriate branch to see the solution to process SASS into CSS.
 
 As a learning guide, the following order is recommended:
 
-- **with_node_sass** - The simplest solution when you only have one `main.scss` file that has to be converted to `main.css`.
+- **with_node_sass** - The simplest solution when you only have one `main.scss` file that has to be converted to `main.css`. Uses deprecated `@import` but uses modules and is very straight-forward and pragmatic.
 
