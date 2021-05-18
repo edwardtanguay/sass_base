@@ -9,6 +9,7 @@ This solution is very simple and should be used mostly as a way to get you up-an
 - `npm i`
 - run Live Server on `index.html`
 - `gulp` to begin watching and converting scss to css
+    - (if this doesn't work, try: `node_modules/.bin/gulp`)
 - make change to `scss/main.scss` to see it immediately reflected in the browser
 
 ## Note
